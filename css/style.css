@@ -8,7 +8,12 @@
 .ex-1-square:hover {
     transition: 3s ease 0s;
     background: #CF4647;
+
 }
+
+
+
+
 
 
 .ex-2-square {
@@ -16,15 +21,40 @@
     height: 100px;
     background: red;
 }
+
+.ex-2-square:active {
+    width:200px;
+    height:400px;
+    transition: 3s ease 0s;
+}
+
+
+
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+.ex-3-square:hover {
+    transition: 3s ease 0s;
+    border-radius: 100%;
+}
+
+
+
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+}
+
+.ex-4-square{
+    
 }
 .ex-5-square {
     margin: 20px;
