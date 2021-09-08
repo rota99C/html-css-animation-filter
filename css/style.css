@@ -23,8 +23,8 @@
 }
 
 .ex-2-square:active {
-    width:200px;
-    height:400px;
+    width:600px;
+    height:100px;
     transition: 3s ease 0s;
 }
 
@@ -103,6 +103,7 @@
 
 
 .ex-8-img:hover{
+    transition: 3s;
     filter: sepia(40%);
     filter: brightness(150%);
     border-radius: 7px;
@@ -118,6 +119,7 @@
 
 
 .ex-9-img:hover{
+    transition: 3s;
     filter:invert(50%);
     filter:contrast(50%);
     border-radius: 9px;
